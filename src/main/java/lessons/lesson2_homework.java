@@ -10,11 +10,7 @@ public class lesson2_homework {
     }
 
     public static boolean checkSum(int a, int b){
-        if (a+b >= 10 && a+b <= 20){
-            return true;
-        }else {
-            return false;
-        }
+        return  (a+b >= 10 && a+b <= 20);
     }
 
     public static void  checkEvenOdd(int a){
@@ -26,7 +22,7 @@ public class lesson2_homework {
     }
 
     public static boolean checkNegative(int a){
-        if (a >= 0){
+        if (a < 0){
             return false;
         }else{
             return true;
