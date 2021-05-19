@@ -1,4 +1,4 @@
-package lesson1;
+package lessons;
 
 public class lesson1_homework {
 
