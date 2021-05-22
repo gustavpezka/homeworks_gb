@@ -18,7 +18,7 @@ public class lesson3_homework {
         doubleLessThanSix(arrayDoubleLessThanSix);
         System.out.println(Arrays.toString(arrayToHundred));
 /////Задание 4
-        int[][] arrayFillDiagonals = new int[6][6];
+        int[][] arrayFillDiagonals = new int[7][7];
         fillDiagonals(arrayFillDiagonals);
         for (int i = 0; i < arrayFillDiagonals.length; i++) {
             for (int j = 0; j < arrayFillDiagonals[i].length; j++) {
@@ -68,11 +68,7 @@ public class lesson3_homework {
     public static void fillDiagonals (int[][] arrayFillDiagonals){
         for (int i = 0; i < arrayFillDiagonals.length; i++) {
             arrayFillDiagonals[i][i] = 1;
-            for (int j = 0; j < arrayFillDiagonals[i].length; j++) {
-                if (i+j == 5){
-                    arrayFillDiagonals[i][arrayFillDiagonals.length - 1 - i] = 1;
-                }
-            }
+            arrayFillDiagonals[i][arrayFillDiagonals.length - 1 - i] = 1;
         }
     }
 
