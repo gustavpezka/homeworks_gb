@@ -1,15 +1,15 @@
 package lesson6HomeWork;
 
-class Animal {
-    public String name;
-    public static int animalCount;
+abstract class Animal {
+    public final String name;
+    private static int animalCount;
 
     public Animal(String name){
         this.name = name;
         animalCount+=1;
     }
 
-    public int getAnimalCount() {
+    public static int getAnimalCount() {
         return animalCount;
     }
 

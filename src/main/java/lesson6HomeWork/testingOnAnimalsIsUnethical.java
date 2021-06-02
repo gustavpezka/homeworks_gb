@@ -3,9 +3,6 @@ package lesson6HomeWork;
 public class testingOnAnimalsIsUnethical {
 
     public static void main(String[] args) {
-        Animal animal = new Animal("RAAAGH!!!");
-        Animal animal1 = new Animal("RAAAGH!!!");
-        Animal animal2 = new Animal("RAAAGH!!!");
         Cat cat = new Cat("Fifi");
         Cat cat1 = new Cat("Fufu");
         Cat cat2 = new Cat("Fafa");

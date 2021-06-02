@@ -2,6 +2,8 @@ package lesson6HomeWork;
 
 public class Cat extends Animal{
     private static int countCats;
+    private static int maxRunningDistance = 200;
+    private static int minRunningDistance = 0;
 
     public Cat(String name){
         super(name);
@@ -14,7 +16,7 @@ public class Cat extends Animal{
 
     @Override
     public void run (int distance){
-        if(distance<200 && distance>0){
+        if(distance<maxRunningDistance && distance>minRunningDistance){
             System.out.println("Кот " + name + " пробежал " + distance + " метров");
         }else{
             System.out.println("Неправильная дистанция");
