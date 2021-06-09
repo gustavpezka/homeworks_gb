@@ -8,6 +8,7 @@ public class PrepareWord {
     private static String[] OPEN_TEXT_ARRAY;
     private static String[] HIDDEN_TEXT_ARRAY;
 
+
     public static String pickRandomWord() {
         Random random = new Random();
         int intrandom = random.nextInt(WORDS.length - 1);

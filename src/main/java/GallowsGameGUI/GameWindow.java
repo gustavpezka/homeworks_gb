@@ -10,6 +10,7 @@ import java.util.Arrays;
 public class GameWindow extends JFrame implements ActionListener{
 
         private String letter;
+
         JPanel buttonPanel;
         JLabel wordPanel;
         JLabel gallowsPanel;
